@@ -1,0 +1,17 @@
+{
+  "name": "@ds.e/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Catevika/ds.e.git",
+  "author": "Catevika <dominique.bello@outlook.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "scripts": {
+    "build": "node src/scripts/build.js"
+  }
+}
