@@ -9,9 +9,11 @@
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
   },
   "scripts": {
-    "build": "node src/scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   }
 }
