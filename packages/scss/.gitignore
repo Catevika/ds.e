@@ -9,4 +9,4 @@ yarn-error.log*
 node_modules/
 
 # Distribution directories
-lib/*
+lib/
