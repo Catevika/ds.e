@@ -9,34 +9,36 @@
  *
  */
 
-
 /* Media Queries */
 
 @mixin tablet {
-  @media (min-width: map-get($breakpoints, 'md')) {
-    @content;
-  }
+	@media (min-width: map-get($breakpoints, "md")) {
+		@content;
+	}
 }
 
 @mixin laptop {
-  @media (min-width: map-get($breakpoints, 'lg')) {
-    @content;
-  }
+	@media (min-width: map-get($breakpoints, "lg")) {
+		@content;
+	}
 }
 
 @mixin desktop {
-  @media (min-width: map-get($breakpoints, 'xl')) {
-    @content;
-  }
+	@media (min-width: map-get($breakpoints, "xl")) {
+		@content;
+	}
 }
-
 
 /* spacing */
 
 @mixin padding($space) {
-  padding: map-get($spacing, $space);
+	padding: map-get($spacing, $space);
 }
 
+// * Might be declined in padding-top, right, left and bottom
+
 @mixin margin($space) {
-  margin: map-get($spacing, $space);
+	margin: map-get($spacing, $space);
 }
+
+// * Might be declined in margin-top, right, left and bottom

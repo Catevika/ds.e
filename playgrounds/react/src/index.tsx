@@ -8,6 +8,7 @@ import "@ds.e/scss/lib/Utilities.css";
 import "@ds.e/scss/lib/Button.css";
 import "@ds.e/scss/lib/Text.css";
 import "@ds.e/scss/lib/Margin.css";
+import "@ds.e/scss/lib/Select.css";
 
 const options = [
 	{ label: "Strict Black", value: "strict-black" },
@@ -16,13 +17,18 @@ const options = [
 ];
 
 ReactDOM.render(
-	<>
+	<div style={{ padding: "40px" }}>
 		{/* <Button hexCode='#000' />
 		<Color width='xl' height='xl' />
 		<Margin left space='none'>
 			<Text size='xl'>This is some text</Text>
 		</Margin> */}
-		<Select options={options} />
-	</>,
+		<Select
+			options={options}
+			renderOption={({ option, getOptionRecommendedProps }) => (
+				<p {...getOptionRecommendedProps()}>{option.label}</p>
+			)}
+		/>
+	</div>,
 	document.querySelector("#root")
 );
