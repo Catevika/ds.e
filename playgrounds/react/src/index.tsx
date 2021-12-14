@@ -9,6 +9,7 @@ import "@ds.e/scss/lib/Button.css";
 import "@ds.e/scss/lib/Text.css";
 import "@ds.e/scss/lib/Margin.css";
 import "@ds.e/scss/lib/Select.css";
+import { CheckIcon } from "@heroicons/react/solid";
 
 const options = [
 	{ label: "Strict Black", value: "strict-black" },
@@ -25,8 +26,13 @@ ReactDOM.render(
 		</Margin> */}
 		<Select
 			options={options}
-			renderOption={({ option, getOptionRecommendedProps }) => (
-				<p {...getOptionRecommendedProps()}>{option.label}</p>
+			renderOption={({ option, getOptionRecommendedProps, isSelected }) => (
+				<p {...getOptionRecommendedProps()}>
+					{option.label}{" "}
+					{isSelected ? (
+						<CheckIcon color='#fff' width='1rem' height='1rem' />
+					) : null}
+				</p>
 			)}
 		/>
 	</div>,

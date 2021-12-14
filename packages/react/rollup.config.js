@@ -16,5 +16,5 @@ export default {
 	},
 	plugins: [Ts()],
 	preserveModules: true,
-	external: ["react", "@ds.e/foundation"]
+	external: ["react", "@ds.e/foundation", "@heroicons/react/solid"]
 };

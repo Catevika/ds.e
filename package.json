@@ -21,5 +21,9 @@
   "scripts": {
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "typescript": "4.5.4"
   }
 }
