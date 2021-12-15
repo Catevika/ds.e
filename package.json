@@ -6,6 +6,15 @@
   "author": "Catevika <dominique.bello@outlook.fr>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/graceful-fs": "^4.1.5",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
     "lerna": "^4.0.0"
   },
   "private": true,
