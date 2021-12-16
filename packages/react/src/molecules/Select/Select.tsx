@@ -162,7 +162,7 @@ const Select: React.FC<SelectProps> = ({
 					height='1rem'
 				/>
 			</button>
-			{isOpen ? (
+			{
 				<ul
 					role='menu'
 					aria-hidden={isOpen ? undefined : false}
@@ -216,7 +216,7 @@ const Select: React.FC<SelectProps> = ({
 						);
 					})}
 				</ul>
-			) : null}
+			}
 		</div>
 	);
 };
