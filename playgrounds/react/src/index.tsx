@@ -12,9 +12,9 @@ import "@ds.e/scss/lib/Select.css";
 import { CheckIcon } from "@heroicons/react/solid";
 
 const options = [
-	{ label: "Strict Black", value: "strict-black" },
-	{ label: "Heavenly Green", value: "heavenly-green" },
-	{ label: "Sweet Pink", value: "pink" }
+	{ label: "Strict Black", value: "Black" },
+	{ label: "Heavenly Green", value: "Green" },
+	{ label: "Sweet Pink", value: "Pink" }
 ];
 
 ReactDOM.render(

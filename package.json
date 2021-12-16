@@ -6,7 +6,6 @@
   "author": "Catevika <dominique.bello@outlook.fr>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",

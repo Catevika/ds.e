@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-storysource": "^6.4.9",
+    "@storybook/react": "^6.4.9",
     "@types/react": "^17.0.37",
     "react": "^17.0.2",
     "rollup": "^2.61.1",
@@ -14,6 +16,8 @@
     "build": "rollup -c",
     "dev": "yarn build --watch",
     "test": "jest --verbose",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "start-storybook": "start-storybook",
+    "build-storybook": "build-storybook"
   }
 }

@@ -8,9 +8,9 @@ import Select from "./Select";
 import { render, fireEvent } from "@testing-library/react";
 
 const options = [
-	{ label: "Strict Black", value: "strict-black" },
-	{ label: "Heavenly Green", value: "heavenly-green" },
-	{ label: "Sweet Pink", value: "pink" }
+	{ label: "Strict Black", value: "Black" },
+	{ label: "Heavenly Green", value: "Green" },
+	{ label: "Sweet Pink", value: "Pink" }
 ];
 
 test("renders all options passed to it", () => {
