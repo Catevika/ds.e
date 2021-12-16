@@ -10,7 +10,7 @@ const options = [
 ];
 
 export default {
-	title: "Molecules/Select"
+	title: "molecules/Select"
 };
 
 export const Common = () => <Select options={options} />;
