@@ -2,7 +2,7 @@ import React from "react";
 import Select from "./Select";
 import { withA11y } from "@storybook/addon-a11y";
 
-import "@ds.e/scss/lib/Select.css";
+import "@catevika_ds.e/scss/lib/Select.css";
 
 const options = [
 	{ label: "Strict Black", value: "Black" },

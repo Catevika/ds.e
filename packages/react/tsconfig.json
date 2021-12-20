@@ -14,6 +14,6 @@
 		"declaration": true,
 		"moduleResolution": "node"
 	},
-	"include": ["src", "@ds.e/foundation"],
+	"include": ["src", "@catevika_ds.e/foundation"],
 	"exclude": ["node_modules", "lib"]
 }

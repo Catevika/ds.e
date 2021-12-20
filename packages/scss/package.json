@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/scss",
+  "name": "@catevika_ds.e/scss",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Catevika/ds.e.git",
@@ -19,5 +19,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "d04b6c4121aa25315be94baaee1f2c4f1ab80238"
+  "gitHead": "32c55f99963acf84950d1790a6d0152a99d1f0f0"
 }

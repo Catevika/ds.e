@@ -1,10 +1,10 @@
 import React from "react";
 import Color from "./Color";
 
-import { Spacing } from "@ds.e/foundation";
+import { Spacing } from "@catevika_ds.e/foundation";
 import { text, select } from "@storybook/addon-knobs";
 
-import "@ds.e/scss/lib/Utilities.css";
+import "@catevika_ds.e/scss/lib/Utilities.css";
 
 export default {
 	title: "atoms/Color"

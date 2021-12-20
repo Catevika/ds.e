@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { /* Button, Color, Text, Margin, */ Select } from "@ds.e/react/src";
+import {
+	/* Button, Color, Text, Margin, */ Select
+} from "@catevika_ds.e/react/src";
 
-import "@ds.e/scss/lib/Global.css";
-import "@ds.e/scss/lib/Utilities.css";
-import "@ds.e/scss/lib/Button.css";
-import "@ds.e/scss/lib/Text.css";
-import "@ds.e/scss/lib/Margin.css";
-import "@ds.e/scss/lib/Select.css";
+import "@catevika_ds.e/scss/lib/Global.css";
+import "@catevika_ds.e/scss/lib/Utilities.css";
+import "@catevika_ds.e/scss/lib/Button.css";
+import "@catevika_ds.e/scss/lib/Text.css";
+import "@catevika_ds.e/scss/lib/Margin.css";
+import "@catevika_ds.e/scss/lib/Select.css";
 import { CheckIcon } from "@heroicons/react/solid";
 
 const options = [
