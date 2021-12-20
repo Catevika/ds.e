@@ -32,6 +32,9 @@
     "test": "yarn lerna run test"
   },
   "dependencies": {
+    "@catevika_ds.e/foundation": "^1.1.0",
+    "@catevika_ds.e/react": "^1.1.0",
+    "@catevika_ds.e/scss": "^1.1.0",
     "@heroicons/react": "^1.0.5",
     "typescript": "4.5.4"
   }

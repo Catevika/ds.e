@@ -5,6 +5,10 @@
   "repository": "https://github.com/Catevika/ds.e.git",
   "author": "Catevika <dominique.bello@outlook.fr>",
   "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
