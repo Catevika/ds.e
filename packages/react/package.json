@@ -22,5 +22,8 @@
     "test:watch": "yarn test --watch",
     "start-storybook": "start-storybook",
     "build-storybook": "build-storybook"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
